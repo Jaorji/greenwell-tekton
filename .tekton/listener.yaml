@@ -60,7 +60,7 @@ spec:
     - name: gitrevision
       value: v0.32.0
     - name: unit-tests-task
-      value: |
+      value: |-
         echo ligne1
         echo "ligne2"
         echo 'ligne3'
