@@ -72,7 +72,9 @@ spec:
         name: pipeline-template
       params:
         - name: message
-          value: Hello from the Git Triggers EventListener!
+           value: |-
+             line1
+             line2
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: EventListener
