@@ -1,4 +1,4 @@
 Sample tekton pipeline
 
 
-ji test ..
+ji test 
