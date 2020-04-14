@@ -49,9 +49,7 @@ spec:
     - name: gitrepositoryurl
       value: $(event.repository.url)
     - name: commit-message
-      value: |-
-        line1
-        line2
+      value: $(event.head_commit.message)
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: TriggerBinding
