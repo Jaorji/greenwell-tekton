@@ -76,7 +76,7 @@ spec:
         name: pipeline-template
       params:
         - name: message
-           value: Hello from the Manual Triggers EventListener!
+          value: Hello from the Manual Triggers EventListener!
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: EventListener
